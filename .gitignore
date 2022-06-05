@@ -20,8 +20,10 @@
 /client/yarn-debug.log*
 /client/yarn-error.log*
 
+/client/package-lock.json
+
 # --------------- server ---------------
 
 /server/node_modules
 /server/.env
-/server/package.json
+/server/package-lock.json
