@@ -1,1 +1,28 @@
-server/node_modules
+# --------------- client ---------------
+
+# dependencies
+/client/node_modules
+/client/.pnp
+/client/.pnp.js
+
+# testing
+/client/coverage
+
+# production
+/client/build
+
+# misc
+/client/.DS_Store
+/client/.env
+/client/package.json
+
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+
+# --------------- server ---------------
+
+/server/node_modules
+/server/.env
+/server/package.json
+/server/db_dump.sql
